@@ -17,6 +17,7 @@ const App = () => {
           </Route>
           <Route exact path="/contact">
             <ContactPage />
+            
           </Route>
           <Route exact path="/links">
             <Links />
