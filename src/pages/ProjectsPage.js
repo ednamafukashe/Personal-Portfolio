@@ -70,8 +70,7 @@ const ProjectsPage = () => {
             </h2>
             <div className="underline"></div>
             <p>
-              Since I've been creating projects for a while now, there are a lot
-              of them. I decided to put some of my favourite ones here.
+              I have worked on multiple projectsand have listed most of them.
               <br />
               If you are interested in seeing all my projects then please
               consider following me on{' '}
