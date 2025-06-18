@@ -22,7 +22,6 @@ const ProjectsPage = () => {
 
   useEffect(() => {
     fetchProjects();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // UPDATE FILTER BTNS COLOR
@@ -102,6 +101,8 @@ const ProjectsPage = () => {
 };
 
 // Category Btns Component
+import PropTypes from 'prop-types';
+
 const Categories = ({ categories, filterProjects }) => {
   return (
     <div className="category-btn-container">
@@ -119,6 +120,11 @@ const Categories = ({ categories, filterProjects }) => {
   );
 };
 
+Categories.propTypes = {
+  categories: PropTypes.array.isRequired,
+  filterProjects: PropTypes.func.isRequired,
+};
+
 // Projects Component
 const Projects = ({ projects }) => {
   // sort by name
@@ -132,6 +138,10 @@ const Projects = ({ projects }) => {
       ))}
     </div>
   );
+};
+
+Projects.propTypes = {
+  projects: PropTypes.array.isRequired,
 };
 
 export default ProjectsPage;

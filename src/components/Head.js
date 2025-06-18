@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import seoConfig from '../data/seoCofig';
 import { Helmet } from 'react-helmet-async';
 
@@ -73,5 +74,11 @@ const Head = ({ title, description, image }) => {
     </Helmet>
   );
 };
+Head.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  image: PropTypes.string,
+};
 
 export default Head;
+

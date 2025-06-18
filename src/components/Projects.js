@@ -8,6 +8,7 @@ import {
 } from 'react-icons/fa';
 import { Loading } from '.';
 import AIRTABLE_DATA from '../data/airtableData';
+import PropTypes from 'prop-types';
 
 export const Projects = () => {
   const [projects, setProjects] = useState();
@@ -20,13 +21,21 @@ export const Projects = () => {
     setLoading(false);
   };
 
-  // useEffect
+  SingleProject.propTypes = {
+    imgUrl: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    stack: PropTypes.arrayOf(PropTypes.string).isRequired,
+    url: PropTypes.string.isRequired,
+    github: PropTypes.string,
+    isClientWork: PropTypes.bool,
+  };
+
   useEffect(() => {
     fetchProjects();
   
   }, []);
 
-  // jsx
   return (
     <section className="section projects" id="projects">
       {/* title */}

@@ -4,7 +4,7 @@ import buymeacoffee from '../images/buymeacoffee.png';
 export const Widget = () => {
   return (
     <a
-      href="coff.ee/mafukasheen"
+      href="https://buymeacoffee.com/mafukasheen"
       target="_blank"
       rel="noreferrer"
       className="widget"
