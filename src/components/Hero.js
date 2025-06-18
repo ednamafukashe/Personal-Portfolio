@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../images/hero/hero-img.svg';
+import heroImg from '../images/hero/heroo.svg';
 import { AppContext } from '../context';
 import { FaCode, FaEnvelope } from 'react-icons/fa';
 
@@ -44,7 +44,12 @@ export const Hero = () => {
 
           {/* hero-image */}
           <article className="hero-img">
-            <img src={heroImg} alt="Hero" className="hero-image" />
+          <img
+            src={heroImg}
+            alt="Hero"
+            className="hero-image"
+            style={{ width: '800px', height: 'auto', marginLeft: '-250px' }}
+          />
           </article>
         </div>
       </div>
