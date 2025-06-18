@@ -21,49 +21,30 @@ const AIRTABLE_DATA = {
       imgUrl:
         'https://res.cloudinary.com/de525o0ei/image/upload/v1731927139/weather.png',
       isClientWork: true,
-      isClientWork: true,
       stack: [
-        'Svelte JS',
-        'TailwindCSS',
-        'Supabase',
-        'Vercel'
         'Svelte JS',
         'TailwindCSS',
         'Supabase',
         'Vercel'
       ],
       url: 'https://www.gatewaystream.com/nama',
-      url: 'https://www.gatewaystream.com/nama',
     },
-    {
-      id: 3,
-      title: '3. ANSA Voting Platform',
-      desc: 'Built an interactive voting platform for the Zimbabwe Sports Awards, enabling fans to actively participate in recognizing top athletic talent. The app featured a two-phase process—initial nominations followed by a final voting round for shortlisted athletes ensuring transparency and broad community engagement in selecting the People’s Choice Sports Star.',
-      title: '3. ANSA Voting Platform',
-      desc: 'Built an interactive voting platform for the Zimbabwe Sports Awards, enabling fans to actively participate in recognizing top athletic talent. The app featured a two-phase process—initial nominations followed by a final voting round for shortlisted athletes ensuring transparency and broad community engagement in selecting the People’s Choice Sports Star.',
-      imgUrl:
-        'https://res.cloudinary.com/de525o0ei/image/upload/v1750240480/ansa_vrlqos.png',
-      isClientWork: true,
-        'https://res.cloudinary.com/de525o0ei/image/upload/v1750240480/ansa_vrlqos.png',
-      isClientWork: true,
-      stack: [
-        'Svelte JS',
-        'TailwindCSS',
-        'Supabase',
-        'Vercel'
-        'Svelte JS',
-        'TailwindCSS',
-        'Supabase',
-        'Vercel'
-      ],
-      github: 'https://www.gatewaystream.com/ansa',
-      github: 'https://www.gatewaystream.com/ansa',
-    },
+{
+  id: 3,
+  title: '3. ANSA Voting Platform',
+  desc: 'Built an interactive voting platform for the Zimbabwe Sports Awards, enabling fans to actively participate in recognizing top athletic talent. The app featured a two-phase process—initial nominations followed by a final voting round for shortlisted athletes ensuring transparency and broad community engagement in selecting the People’s Choice Sports Star.',
+  imgUrl: 'https://res.cloudinary.com/de525o0ei/image/upload/v1750240480/ansa_vrlqos.png',
+  isClientWork: true,
+  stack: [
+    'Svelte JS',
+    'TailwindCSS',
+    'Supabase',
+    'Vercel'
   ],
+  url: 'https://www.gatewaystream.com/ansa'
+    }
+  ]
 
-  resources: [
-    
-  ],
 };
 
 export default AIRTABLE_DATA;
