@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Head, Loading, NavForPages, SingleProject } from '../components';
 import AIRTABLE_DATA from '../data/airtableData';
+import PropTypes from 'prop-types'; // ✅ Move this here
 
 // COMPONENT
 const ProjectsPage = () => {
@@ -99,9 +100,6 @@ const ProjectsPage = () => {
     </>
   );
 };
-
-// Category Btns Component
-import PropTypes from 'prop-types';
 
 const Categories = ({ categories, filterProjects }) => {
   return (
