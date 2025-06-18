@@ -39,14 +39,14 @@ export const About = () => {
           <p>
             {/* text */}
             I'm <strong>Edna</strong>, a <span>{age}</span> year old
-            <strong> Software Developer</strong> with 3+ years of experience.
+            <strong> Software Developer</strong> with 4+ years of experience.
             I work with Javascript and its endless list of frameworks, primarily
             with <strong>Svelte.js</strong>, <strong>React.js</strong>,{' '}
             and <strong>Node.js</strong>.
             <br />
             <br />
             I also work as a <strong>
-            Freelance AI Data Trainer
+            Freelance Advanced AI Data Trainer
             </strong>{' '}
             <br />
             When I'm not coding, I love cooking and posting my content on Tik Tok. I also
