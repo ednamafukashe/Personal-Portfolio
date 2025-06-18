@@ -9,39 +9,40 @@ const AIRTABLE_DATA = {
       title: '1. Gateway Stream- Hotel Booking Platform',
       desc: 'Gateway is a comprehensive hotel booking platform designed to cater to the African hospitality market, offering functionality similar to Booking.com. The platform enables users to effortlessly search, book, modify stay dates, and pay for accommodations at over 5,000 hotels. It is integrated with the HyperGuest API, ensuaring real-time availability and pricing, providing users with a seamless booking experience.',
       imgUrl:
-        'https://res.cloudinary.com/de525o0ei/image/upload/v1731923597/gateway.png',
+        'https://res.cloudinary.com/de525o0ei/image/upload/v1750240245/Screenshot_2025-06-18_112629_bei4yj.png',
       isClientWork: true,
       stack: ['Svelte','NodeJS', 'TailwindCSS', 'Vercel', 'Supabase'],
       url: 'https://www.gatewaystream.com/',
     },
     {
       id: 2,
-      title: '2. Weather App | Freelance Project',
-      desc: 'This weather app is a dynamic application built with HTML and JavaScript, integrated with a weather API to provide real-time weather updates. The app features a sleek and intuitive design, offering users a seamless experience in checking current conditions, forecasts, and temperature trends.This project highlights my ability to work with APIs, implement responsive designs, and deliver user-friendly web applications..',
+      title: '2. NAMA Voting Platform',
+      desc: 'Developed a dynamic voting platform for Zimbabwe’s premier music awards, the National Arts Merit Awards (NAMA). The app allowed users to nominate their favorite artists during the initial phase, after which the top five nominees advanced to a final voting round for the People’s Choice Award. The system ensured a seamless, secure, and engaging user experience throughout the nomination and voting process.',
       imgUrl:
         'https://res.cloudinary.com/de525o0ei/image/upload/v1731927139/weather.png',
-      isClientWork: false,
+      isClientWork: true,
       stack: [
-        'Javascript',
-        'CSS',
-        'Axios'
+        'Svelte JS',
+        'TailwindCSS',
+        'Supabase',
+        'Vercel'
       ],
-      url: 'https://she-code-weather-app.netlify.app/',
-      github: 'https://github.com/ednamafukashe/Weather-App',
+      url: 'https://www.gatewaystream.com/nama',
     },
     {
       id: 3,
-      title: '3. Fauxica - Clothing Store',
-      desc: 'Fauxica is a frontend-only website designed for a fictional clothing store. The platform showcases a sleek, modern interface tailored to highlight the brand diverse range of clothing items. The project emphasizes responsive design, interactive user experience, and clean, maintainable code.This project demonstrates my ability to create visually appealing and functional frontend solutions, focusing on user engagement and brand representation.',
+      title: '3. ANSA Voting Platform',
+      desc: 'Built an interactive voting platform for the Zimbabwe Sports Awards, enabling fans to actively participate in recognizing top athletic talent. The app featured a two-phase process—initial nominations followed by a final voting round for shortlisted athletes ensuring transparency and broad community engagement in selecting the People’s Choice Sports Star.',
       imgUrl:
-        'https://res.cloudinary.com/de525o0ei/image/upload/v1731925779/fauxica.png',
-      isClientWork: false,
+        'https://res.cloudinary.com/de525o0ei/image/upload/v1750240480/ansa_vrlqos.png',
+      isClientWork: true,
       stack: [
-        'Javascript',
-        'Tailwind CSS',
-        'HTML'
+        'Svelte JS',
+        'TailwindCSS',
+        'Supabase',
+        'Vercel'
       ],
-      github: 'https://github.com/ednamafukashe/Fauxica-Website',
+      github: 'https://www.gatewaystream.com/ansa',
     },
   ],
 
